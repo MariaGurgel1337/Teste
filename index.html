@@ -16,8 +16,47 @@
                 <span id="hamburger" ></span>
         </button>
         <ul id="menu" role="menu">
-            <li><a class="linkMenu" href="./index.html">Menu</a></li>
+            <li role="none"><a class="linkMenu" role="menuitem" href="./index.html">Menu</a></li>
+            <li role="none"><a class="linkMenu" role="menuitem" href="./quemsomos.html">Quem Somos</a></li>
+            <li role="none"><a class="linkMenu" role="menuitem" href="./produtos.html">Produtos</a></li>
+            <li role="none"><a class="linkMenu" role="menuitem" href="./videos.html">Videos</a></li>
+            <li role="none"><a class="linkMenu" role="menuitem" href="./contato.html">Contato</a></li>
         </ul>
+
+        <main id="conteudo">
+            <section aria-label="Área texto alternativo" id="hieroglyph"></section>
+
+            <section aria-label="Destaques em banner">
+                <div
+                id="carouselExampleInterval"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-pause="none"
+                > 
+
+                <div class="carousel-inner">
+                    <div class = "carousel-item active" data-bs-interval="800">
+                        <img
+                        src="./img/carousel_img_1.png"
+                        class = "d-block w-100"
+                        alt="Banner de Destaque 1"
+                        >
+                    </div>
+                    <button
+                    class ="carousel-control-prev"
+                    data-bs-target= "#carouselExampleInterval"
+                    type = "button"
+                    data-bs-slide="prev"
+                    aria-label="Voltar Banner"
+                    >
+                    </button>
+                    <span class = "carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class = "visually-hidden"> Anterior </span>
+                    </div>
+                </div>
+
+            </section>
+        </main>
         </nav>
      </header>
     <!-- Fim Menu -->
