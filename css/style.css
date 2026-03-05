@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    text-align:center;
+    background-color: aquamarine;
+}
+
+#main-home h1{
+    color: black;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 20px
+}
+
+#main-home h2{
+    color: red;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 3px 3px 6px #b1b1b1;
+}
